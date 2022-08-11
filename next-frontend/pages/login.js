@@ -38,9 +38,9 @@ const login = () => {
 							</Link>
 						</div>
 						<div className="flex items-center space-x-2">
-							<Link href="/register">
+							<Link href="/demo">
 								<a className="underline font-medium text-[#070eff]">
-									Sign up now
+									Try demo, for free!
 								</a>
 							</Link>
 						</div>
