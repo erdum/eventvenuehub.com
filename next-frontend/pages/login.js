@@ -20,9 +20,9 @@ const login = () => {
 							Discover the modern way of organizing events
 						</h1>
 						<p className="text-lg">You do not have an account?</p>
-						<Link href="/register">
+						<Link href="/demo">
 							<a className="inline-block flex-none px-4 py-3 border-2 rounded-lg font-medium border-black bg-black text-white transition-all hover:bg-white hover:text-black">
-								Create account here
+								Try demo, for free!
 							</a>
 						</Link>
 					</div>
