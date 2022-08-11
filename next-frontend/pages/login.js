@@ -10,7 +10,7 @@ const login = () => {
 			<div className="flex flex-row w-full">
 				<div className="hidden lg:flex flex-col justify-between bg-[#ffe85c] lg:p-8 xl:p-12 lg:max-w-sm xl:max-w-lg">
 					<div className="flex items-center justify-start space-x-3">
-						<Image src={logo} alt="logo" width={64} height={64} />
+						<Image src={logo} alt="logo" width={60} height={60} />
 						<Link href="/">
 							<a className="font-medium text-xl">Event Venue Hub</a>
 						</Link>
@@ -20,9 +20,11 @@ const login = () => {
 							Discover the modern way of organizing events
 						</h1>
 						<p className="text-lg">You do not have an account?</p>
-						<button className="inline-block flex-none px-4 py-3 border-2 rounded-lg font-medium border-black bg-black text-white transition-all hover:bg-white hover:text-black">
-							Create account here
-						</button>
+						<Link href="/register">
+							<a className="inline-block flex-none px-4 py-3 border-2 rounded-lg font-medium border-black bg-black text-white transition-all hover:bg-white hover:text-black">
+								Create account here
+							</a>
+						</Link>
 					</div>
 					<p className="font-medium">© 2022 eventvenuehub.com</p>
 				</div>
@@ -31,15 +33,16 @@ const login = () => {
 					<div className="flex lg:hidden justify-between items-center w-full py-4">
 						<div className="flex items-center justify-start space-x-3">
 							<span className="bg-black rounded-full w-6 h-6"></span>
-							<a href="#" className="font-medium text-lg">
-								Brand
-							</a>
+							<Link href="/">
+								<a className="font-medium text-lg">Event Venue Hub</a>
+							</Link>
 						</div>
 						<div className="flex items-center space-x-2">
-							<span>Not a member? </span>
-							<a href="#" className="underline font-medium text-[#070eff]">
-								Sign up now
-							</a>
+							<Link href="/register">
+								<a className="underline font-medium text-[#070eff]">
+									Sign up now
+								</a>
+							</Link>
 						</div>
 					</div>
 
