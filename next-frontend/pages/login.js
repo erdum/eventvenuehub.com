@@ -2,17 +2,17 @@ import Link from "next/link";
 import Image from "next/image";
 
 // Logo
-import logo from "../public/vercel.svg";
+import logo from "../public/favicon.ico";
 
 const login = () => {
 	return (
 		<div className="flex min-h-screen">
 			<div className="flex flex-row w-full">
-				<div className="hidden lg:flex flex-col justify-between bg-[#ffe85c] lg:p-8 xl:p-12 lg:max-w-sm xl:max-w-lg">
+				<div className="hidden lg:flex flex-col justify-between bg-[#68e1fd] lg:p-8 xl:p-12 lg:max-w-sm xl:max-w-lg">
 					<div className="flex items-center justify-start space-x-3">
 						<Image src={logo} alt="logo" width={60} height={60} />
 						<Link href="/">
-							<a className="font-medium text-xl">Event Venue Hub</a>
+							<a className="font-medium text-xl">Invitation For Me</a>
 						</Link>
 					</div>
 					<div className="space-y-5">
@@ -22,11 +22,11 @@ const login = () => {
 						<p className="text-lg">You do not have an account?</p>
 						<Link href="/demo">
 							<a className="inline-block flex-none px-4 py-3 border-2 rounded-lg font-medium border-black bg-black text-white transition-all hover:bg-white hover:text-black">
-								Try demo, for free!
+								Try demo, no credit card required!
 							</a>
 						</Link>
 					</div>
-					<p className="font-medium">© 2022 eventvenuehub.com</p>
+					<p className="font-medium">© 2022 invitationfor.me</p>
 				</div>
 
 				<div className="flex flex-1 flex-col items-center justify-center px-10 relative">
@@ -34,16 +34,13 @@ const login = () => {
 						<div className="flex items-center justify-start space-x-3">
 							<span className="bg-black rounded-full w-6 h-6"></span>
 							<Link href="/">
-								<a className="font-medium text-lg">Event Venue Hub</a>
+								<a className="font-medium text-lg">Invitation For Me</a>
 							</Link>
 						</div>
-						<div className="flex items-center space-x-2">
-							<Link href="/demo">
-								<a className="underline font-medium text-[#070eff]">
-									Try demo, for free!
-								</a>
-							</Link>
-						</div>
+						<Link href="/demo">
+						<a className="text-black border-2 border-black bg-[#68e1fd] px-3 md:px-4 py-1.5 md:py-2 rounded-lg">Try demo
+						</a>
+						</Link>
 					</div>
 
 					<div className="flex flex-1 flex-col  justify-center space-y-5 max-w-md">
@@ -52,7 +49,7 @@ const login = () => {
 								Sign in to account
 							</h2>
 							<p className="text-md md:text-xl">
-								Sign up or log in to move forward,no password require!
+								Sign in or sign up to move forward,no password require!
 							</p>
 						</div>
 						<div className="flex flex-col max-w-md space-y-5">
@@ -66,7 +63,7 @@ const login = () => {
 								placeholder="Email"
 								className="flex px-3 py-2 md:px-4 md:py-3 border-2 border-black rounded-lg font-medium placeholder:font-normal"
 							/>
-							<button className="flex items-center justify-center flex-none px-3 py-2 md:px-4 md:py-3 border-2 rounded-lg font-medium border-black bg-black text-white transition-all hover:bg-[#ffe85c] hover:text-black">
+							<button className="flex items-center justify-center flex-none px-3 py-2 md:px-4 md:py-3 border-2 rounded-lg font-medium border-black bg-black text-white transition-all hover:bg-[#68e1fd] hover:text-black">
 								Confirm with email
 							</button>
 							<div className="flex justify-center items-center">
@@ -74,7 +71,7 @@ const login = () => {
 								<span className="px-4">Or</span>
 								<span className="w-full border border-black"></span>
 							</div>
-							<button className="flex items-center justify-center flex-none px-3 py-2 md:px-4 md:py-3 border-2 rounded-lg font-medium border-black relative transition-all hover:bg-[#ffe85c] hover:text-black">
+							<button className="flex items-center justify-center flex-none px-3 py-2 md:px-4 md:py-3 border-2 rounded-lg font-medium border-black relative transition-all hover:bg-[#68e1fd] hover:text-black">
 								<span className="absolute left-4">
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +102,7 @@ const login = () => {
 						</div>
 					</div>
 
-					<div className="flex justify-center flex-col m-auto mb-16 text-center text-lg dark:text-slate-200 ">
+					<div className="flex justify-center flex-col m-auto mb-0 lg:mb-16 text-center text-lg dark:text-slate-200 ">
 						{/*<div className="font-bold mb-1">
 							Built by{" "}
 							<a href="https://asitgrouppakistan.com" className="underline dark:text-white">
