@@ -1,4 +1,5 @@
 /next-frontend/node_modules
 /next-frontend/.next
+/next-frontend/public/dummy/
 
 /node-backend/node_modules
