@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import Head from "next/head";
 import Image from "next/image";
@@ -29,6 +29,8 @@ import img5P from "../public/dummy/img5.png";
 import img6P from "../public/dummy/img6.png";
 
 const Index = () => {
+	const [isScriptsLoaded, setScriptLoaded] = useState(0);
+
 	useEffect(() => {
 		setTimeout(() => {
 			document.getElementById("__next").classList.add("loaded-success");
@@ -1147,12 +1149,12 @@ const Index = () => {
 					/>
 				</svg>
 			</a>
-			<Script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js" />
-			<Script src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js" />
-			<Script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js" />
-			<Script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js" />
-			<Script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js" />
-			<Script src="/animations.js" />
+			<Script onLoad={() => setScriptLoaded(prevState => prevState + 1)} src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js" />
+			<Script onLoad={() => setScriptLoaded(prevState => prevState + 1)} src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js" />
+			<Script onLoad={() => setScriptLoaded(prevState => prevState + 1)} src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js" />
+			<Script onLoad={() => setScriptLoaded(prevState => prevState + 1)}  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js" />
+			<Script onLoad={() => setScriptLoaded(prevState => prevState + 1)} src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js" />
+			{isScriptsLoaded === 5 && <Script src="/animations.js" />}
 		</>
 	);
 };
