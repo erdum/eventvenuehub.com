@@ -40,7 +40,7 @@ const Index = () => {
 			<Head>
 				<link rel="stylesheet" href="/animations.css" />
 				<title>Event Management Solution - Invitation For Me</title>
-			</Head>{" "}
+			</Head>
 			<div className="preloader loaded-success fixed inset-0 z-50 bg-gray-50">
 				<div className="absolute left-1/2 top-1/2 transform -translate-y-1/2">
 					<div className="relative mx-auto my-12">
@@ -67,8 +67,8 @@ const Index = () => {
 							</svg>
 						</div>
 					</div>
-				</div>{" "}
-			</div>{" "}
+				</div>
+			</div>
 			<header className="fixed top-0 left-0 right-0 z-40">
 				<nav className="main-nav">
 					<div className="container xl:max-w-6xl mx-auto px-4">
@@ -159,8 +159,8 @@ const Index = () => {
 							</div>
 						</div>
 					</div>
-				</nav>{" "}
-			</header>{" "}
+				</nav>
+			</header>
 			<main id="content">
 				<div
 					id="hero"
@@ -202,7 +202,7 @@ const Index = () => {
 							</div>
 						</div>
 					</div>
-				</div>{" "}
+				</div>
 				<div
 					id="services"
 					className="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-white"
@@ -425,8 +425,8 @@ const Index = () => {
 							</div>
 						</div>
 						{/* end row */}
-					</div>{" "}
-				</div>{" "}
+					</div>
+				</div>
 				{/* End Service */} {/* Portfolio Content */}
 				<div
 					id="portfolio"
@@ -752,7 +752,7 @@ const Index = () => {
 							</div>
 						</figure>
 					</div>
-				</div>{" "}
+				</div>
 				{/*  End Content */} {/* contact start */}
 				<div
 					id="contact"
@@ -915,9 +915,9 @@ const Index = () => {
 							</div>
 						</div>
 					</div>
-				</div>{" "}
-				{/* End contact */}{" "}
-			</main>{" "}
+				</div>
+				{/* End contact */}
+			</main>
 			{/* end main */} {/* =========={ FOOTER }==========  */}
 			<footer className="bg-gray-50 text-gray-700">
 				{/*Footer content*/}
@@ -1121,7 +1121,7 @@ const Index = () => {
 					</div>
 				</div>
 				{/*End footer copyright*/}
-			</footer>{" "}
+			</footer>
 			{/* end footer */} {/* =========={ SCROLL TO TOP }==========  */}
 			<a
 				href="#"
@@ -1146,13 +1146,13 @@ const Index = () => {
 						clipRule="evenodd"
 					/>
 				</svg>
-			</a>{" "}
+			</a>
 			<Script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js" />
-			<Script src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js" />{" "}
+			<Script src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js" />
 			<Script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js" />
-			<Script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js" />{" "}
+			<Script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js" />
 			<Script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js" />
-			<Script src="/animations.js" />{" "}
+			<Script src="/animations.js" />
 		</>
 	);
 };
