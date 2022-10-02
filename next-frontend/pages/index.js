@@ -76,7 +76,7 @@ const Index = () => {
 					<div className="container xl:max-w-6xl mx-auto px-4">
 						<div className="lg:flex lg:justify-between">
 							<div className="flex justify-between">
-								<div className="mx-w-10 text-4xl font-bold capitalize text-gray-900 flex items-center">
+								<div className="mx-w-10 text-3xl md:text-4xl font-bold capitalize text-gray-900 flex items-center">
 									Invitation For Me
 								</div>
 								{/* mobile nav */}
@@ -253,7 +253,7 @@ const Index = () => {
 								/>
 							</svg>
 							<p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
-								Save time managing advertising &amp; Content for your business.
+								Save time managing, promoting, planing &amp; executing your events
 							</p>
 						</header>
 						<div className="flex flex-wrap flex-row -mx-4 text-center">
@@ -275,7 +275,7 @@ const Index = () => {
 										</svg>
 									</div>
 									<h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-										SEO Services
+										Event Management Portal
 									</h3>
 									<p className="text-gray-500">
 										This is a wider card with supporting text below as a natural
@@ -303,7 +303,7 @@ const Index = () => {
 										</svg>
 									</div>
 									<h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-										Social Content
+										CRM For Organizations
 									</h3>
 									<p className="text-gray-500">
 										This is a wider card with supporting text below as a natural
@@ -331,7 +331,7 @@ const Index = () => {
 										</svg>
 									</div>
 									<h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-										Creative ads
+										Invitation Campaigns
 									</h3>
 									<p className="text-gray-500">
 										This is a wider card with supporting text below as a natural
@@ -358,7 +358,7 @@ const Index = () => {
 										</svg>
 									</div>
 									<h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-										Brand Identity
+										Ticketing Solution
 									</h3>
 									<p className="text-gray-500">
 										This is a wider card with supporting text below as a natural
@@ -416,7 +416,7 @@ const Index = () => {
 										</svg>
 									</div>
 									<h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-										Optimize conversions
+										Invoicing &amp; Payments
 									</h3>
 									<p className="text-gray-500">
 										This is a wider card with supporting text below as a natural
@@ -871,7 +871,7 @@ const Index = () => {
 										</div>
 										<div className="text-center mb-6">
 											<a
-												className="py-2.5 px-10 inline-block text-center leading-normal text-gray-100 bg-black border border-black hover:text-white hover:ring-0 focus:outline-none focus:ring-0"
+												className="py-2.5 px-10 inline-block text-center leading-normal text-gray-100 bg-black border-2 border-black rounded-md transition-colors hover:text-black hover:bg-[#68e1fd] hover:ring-0 focus:outline-none focus:ring-0"
 												href="#project"
 											>
 												<svg
@@ -1061,7 +1061,7 @@ const Index = () => {
 												</a>
 											</li>
 											<Link href="/demo">
-												<a className="mt-4 mr-12 px-0.5 py-0.5 md:py-1 md:px-2 text-center rounded-md bg-black text-white border-2 border-black transition-colors cursor-pointer text-sm md:text-md hover:bg-[#68e1fd] hover:text-black">
+												<a className="mt-4 mr-8 md:mr-12 px-0.5 py-0.5 md:py-1 md:px-2 text-center rounded-md bg-black text-white border-2 border-black transition-colors cursor-pointer text-sm md:text-md hover:bg-[#68e1fd] hover:text-black">
 													Try demo, for Free
 												</a>
 											</Link>
