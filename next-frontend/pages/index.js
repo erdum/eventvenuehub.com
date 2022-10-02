@@ -141,14 +141,14 @@ const Index = () => {
 											What we do
 										</a>
 									</li>
-									<li className="relative hover:text-black">
+									{/*<li className="relative hover:text-black">
 										<a
 											className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"
 											href="#portfolio"
 										>
 											Our works
 										</a>
-									</li>
+									</li>*/}
 									<li className="relative hover:text-black">
 										<a
 											className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"
@@ -432,7 +432,7 @@ const Index = () => {
 				{/* End Service */} {/* Portfolio Content */}
 				<div
 					id="portfolio"
-					className="section relative z-0 py-12 md:py-16 bg-white"
+					className="relative z-0 py-12 md:py-16 bg-white hidden"
 				>
 					<div className="container xl:max-w-6xl mx-auto px-4">
 						{/* Heading start */}
